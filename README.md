@@ -20,3 +20,7 @@ Hand-writing Digits Classifier based on "Binary Image + Naïve Bayes" and "LBP +
 　　2)提取的特征为LBP：像素值非0的地方设置为1，其他地方设置为0。
   
 　　3)分类器为SVM：因为分类的结果是数字0-9，共10类。所以需要multi-class SVM，程序中采用的是One VS One的方案。
+  
+## 4、结果比较：
+  
+　　LBP + SVM和Binary Image + Naïve Bayes都在0.84左右，性能差不多。
